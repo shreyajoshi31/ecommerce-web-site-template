@@ -1,0 +1,36 @@
+{% extends 'navigation.html' %}
+{% load static %}
+{% block body %}
+
+
+<style>
+.prjdiv:hover{
+box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+transform:translateY(-20px)
+}
+</style>
+
+<div class="container" style = "margin-top : 150px">
+      <h2 class = text-center style = "font-family : 'Monotype Corsiva' ; color : green">About Us</h2>
+      <div class="row">
+          <div class="col-sm-4 prjdiv">
+              <img src="{% static 'images/abt.jpg' %}" width=300 height = 200 class="img-responsive">        
+          </div>
+          <div class="col-sm-8 prjdiv" style = "font-weight : bold ; margin-top : 30px">
+            Ayurvedic herbs are thought to be the unearthly embodiment of plants in the ancient Indian science of Ayurveda. Plants capture sunlight-based vitality, i.e. via photosynthesis, and convert it into vitamins that animals can digest. These ayurvedic herbs can be consumed or applied extrinsically through a variety of healing techniques. They’re thought to protect your body from illness and provide a variety of medical benefits, such as better physical and emotional health. Hence, it is important to include ayurvedic herbs for immunity and health. 
+          </div>
+          <div class="container" style = "margin-top : 150px">
+            
+            <div class="row">
+                <div class="col-sm-4 prjdiv">
+                    <img src="{% static 'images/ayu.jpg' %}" width=300 height = 200 class="img-responsive">        
+                </div>
+                <div class="col-sm-8 prjdiv" style = "font-weight : bold ; margin-top : 10px">
+                    There is the global use of ayurvedic products and medicines and all people know how reliable these are with their output. Even with diseases that cannot be treated with drugs and allopathic medicines, Ayurveda has the perfect solutions for it. These are the main reasons why people keep ayurvedic medicines on priority. This can also be related to the rising number of Ayurvedic Medicine Manufacturers in India.
+                           
+                                                        
+      </div>
+  </div>
+  
+
+{% endblock %}
